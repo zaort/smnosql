@@ -10,7 +10,7 @@ const {
  removeFriend
 } = require('../../controllers/controller-user');
 
-// route to get and create user /api/user
+// route to get and create user /api/users
 router.route('/').get(getAllUsers).post(createUser);
 
 // rotes for managing single user (get, update, delete)
